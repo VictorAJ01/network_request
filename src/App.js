@@ -95,7 +95,7 @@ useEffect(function(){
           {users.map((user) => (
             <div className='container'>
               <div className='image'>
-                <img className='userImage' src={image} />
+                <img className='userImage' src={image} alt="userImage" />
               </div>
               <div className='details'>
                 <h3 key={user.name}>Name : {user.name}</h3>
